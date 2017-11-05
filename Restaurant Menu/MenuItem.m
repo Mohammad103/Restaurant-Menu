@@ -10,4 +10,15 @@
 
 @implementation MenuItem
 
+
++ (JSONKeyMapper *)keyMapper
+{
+    return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{
+                                                                  @"id": @"id",
+                                                                  @"name": @"name",
+                                                                  @"descriptionContent": @"description"
+                                                                  }];
+}
+
+
 @end

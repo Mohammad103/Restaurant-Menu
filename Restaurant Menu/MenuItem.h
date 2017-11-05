@@ -10,4 +10,8 @@
 
 @interface MenuItem : JSONModel
 
+@property (nonatomic) NSInteger id;
+@property (nonatomic) NSString *name;
+@property (nonatomic) NSString *descriptionContent;
+
 @end

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B85E9B5DF59F386E7A4F72F /* libPods-Restaurant Menu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1353D1388E7AF130827764E /* libPods-Restaurant Menu.a */; };
+		90D5375B70C98BF6D53970D7 /* Pods_Restaurant_Menu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4391DD073F9CF7895DECE1BA /* Pods_Restaurant_Menu.framework */; };
 		95AC6E371FAF18BF001E76D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AC6E361FAF18BF001E76D6 /* main.m */; };
 		95AC6E3A1FAF18BF001E76D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AC6E391FAF18BF001E76D6 /* AppDelegate.m */; };
 		95AC6E401FAF18BF001E76D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AC6E3E1FAF18BF001E76D6 /* Main.storyboard */; };
@@ -16,9 +16,12 @@
 		95B38BE01FAF1C7C006BA593 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B38BDF1FAF1C7C006BA593 /* MenuItem.m */; };
 		95B38BE31FAF1C94006BA593 /* MenuCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B38BE21FAF1C94006BA593 /* MenuCategory.m */; };
 		95D9A7371FAF1CF10074ACE1 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D9A7361FAF1CF10074ACE1 /* MenuTableViewController.m */; };
+		95D9A73A1FAF30FE0074ACE1 /* CategoriesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D9A7391FAF30FE0074ACE1 /* CategoriesResponse.m */; };
+		95D9A73D1FAF33A20074ACE1 /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D9A73C1FAF33A20074ACE1 /* CategoryCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4391DD073F9CF7895DECE1BA /* Pods_Restaurant_Menu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Restaurant_Menu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AC6E321FAF18BF001E76D6 /* Restaurant Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurant Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AC6E361FAF18BF001E76D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95AC6E381FAF18BF001E76D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,9 +36,12 @@
 		95B38BE21FAF1C94006BA593 /* MenuCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCategory.m; sourceTree = "<group>"; };
 		95D9A7351FAF1CF10074ACE1 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
 		95D9A7361FAF1CF10074ACE1 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		95D9A7381FAF30FE0074ACE1 /* CategoriesResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesResponse.h; sourceTree = "<group>"; };
+		95D9A7391FAF30FE0074ACE1 /* CategoriesResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesResponse.m; sourceTree = "<group>"; };
+		95D9A73B1FAF33A20074ACE1 /* CategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCell.h; sourceTree = "<group>"; };
+		95D9A73C1FAF33A20074ACE1 /* CategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCell.m; sourceTree = "<group>"; };
 		BFBC52C5B90CED3EC299CB81 /* Pods-Restaurant Menu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurant Menu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Restaurant Menu/Pods-Restaurant Menu.debug.xcconfig"; sourceTree = "<group>"; };
 		DDBC131C1FCF26B619ACC3A1 /* Pods-Restaurant Menu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurant Menu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Restaurant Menu/Pods-Restaurant Menu.release.xcconfig"; sourceTree = "<group>"; };
-		F1353D1388E7AF130827764E /* libPods-Restaurant Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Restaurant Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B85E9B5DF59F386E7A4F72F /* libPods-Restaurant Menu.a in Frameworks */,
+				90D5375B70C98BF6D53970D7 /* Pods_Restaurant_Menu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +59,7 @@
 		0E1DF9D07F25B6D061BA4AB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F1353D1388E7AF130827764E /* libPods-Restaurant Menu.a */,
+				4391DD073F9CF7895DECE1BA /* Pods_Restaurant_Menu.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,6 +133,8 @@
 		95B38BD91FAF1BEE006BA593 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				95D9A7381FAF30FE0074ACE1 /* CategoriesResponse.h */,
+				95D9A7391FAF30FE0074ACE1 /* CategoriesResponse.m */,
 				95B38BE11FAF1C94006BA593 /* MenuCategory.h */,
 				95B38BE21FAF1C94006BA593 /* MenuCategory.m */,
 				95B38BDE1FAF1C7C006BA593 /* MenuItem.h */,
@@ -140,6 +148,8 @@
 			children = (
 				95D9A7351FAF1CF10074ACE1 /* MenuTableViewController.h */,
 				95D9A7361FAF1CF10074ACE1 /* MenuTableViewController.m */,
+				95D9A73B1FAF33A20074ACE1 /* CategoryCell.h */,
+				95D9A73C1FAF33A20074ACE1 /* CategoryCell.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -229,9 +239,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Restaurant Menu/Pods-Restaurant Menu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YNExpandableCell/YNExpandableCell.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNExpandableCell.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -281,7 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D9A73A1FAF30FE0074ACE1 /* CategoriesResponse.m in Sources */,
 				95B38BE31FAF1C94006BA593 /* MenuCategory.m in Sources */,
+				95D9A73D1FAF33A20074ACE1 /* CategoryCell.m in Sources */,
 				95AC6E3A1FAF18BF001E76D6 /* AppDelegate.m in Sources */,
 				95B38BE01FAF1C7C006BA593 /* MenuItem.m in Sources */,
 				95AC6E371FAF18BF001E76D6 /* main.m in Sources */,

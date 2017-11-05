@@ -7,7 +7,12 @@
 //
 
 #import <JSONModel/JSONModel.h>
+#import "MenuItem.h"
 
 @interface MenuCategory : JSONModel
+
+@property (nonatomic) NSInteger id;
+@property (nonatomic) NSString *name;
+@property (nonatomic) NSArray <MenuItem *> *items;
 
 @end
