@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90D5375B70C98BF6D53970D7 /* Pods_Restaurant_Menu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4391DD073F9CF7895DECE1BA /* Pods_Restaurant_Menu.framework */; };
 		95AC6E371FAF18BF001E76D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AC6E361FAF18BF001E76D6 /* main.m */; };
 		95AC6E3A1FAF18BF001E76D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AC6E391FAF18BF001E76D6 /* AppDelegate.m */; };
 		95AC6E401FAF18BF001E76D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AC6E3E1FAF18BF001E76D6 /* Main.storyboard */; };
@@ -18,10 +17,11 @@
 		95D9A7371FAF1CF10074ACE1 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D9A7361FAF1CF10074ACE1 /* MenuTableViewController.m */; };
 		95D9A73A1FAF30FE0074ACE1 /* CategoriesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D9A7391FAF30FE0074ACE1 /* CategoriesResponse.m */; };
 		95D9A73D1FAF33A20074ACE1 /* CategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D9A73C1FAF33A20074ACE1 /* CategoryCell.m */; };
+		ECD6B2A533E8E500A5862590 /* libPods-Restaurant Menu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC22437CF3F9F7B168581A5 /* libPods-Restaurant Menu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4391DD073F9CF7895DECE1BA /* Pods_Restaurant_Menu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Restaurant_Menu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC22437CF3F9F7B168581A5 /* libPods-Restaurant Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Restaurant Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AC6E321FAF18BF001E76D6 /* Restaurant Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurant Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AC6E361FAF18BF001E76D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95AC6E381FAF18BF001E76D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D5375B70C98BF6D53970D7 /* Pods_Restaurant_Menu.framework in Frameworks */,
+				ECD6B2A533E8E500A5862590 /* libPods-Restaurant Menu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 		0E1DF9D07F25B6D061BA4AB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4391DD073F9CF7895DECE1BA /* Pods_Restaurant_Menu.framework */,
+				0DC22437CF3F9F7B168581A5 /* libPods-Restaurant Menu.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
