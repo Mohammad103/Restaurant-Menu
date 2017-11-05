@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B85E9B5DF59F386E7A4F72F /* libPods-Restaurant Menu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1353D1388E7AF130827764E /* libPods-Restaurant Menu.a */; };
 		95AC6E371FAF18BF001E76D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AC6E361FAF18BF001E76D6 /* main.m */; };
 		95AC6E3A1FAF18BF001E76D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AC6E391FAF18BF001E76D6 /* AppDelegate.m */; };
 		95AC6E3D1FAF18BF001E76D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AC6E3C1FAF18BF001E76D6 /* ViewController.m */; };
@@ -26,6 +27,9 @@
 		95AC6E411FAF18BF001E76D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95AC6E441FAF18BF001E76D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95AC6E461FAF18BF001E76D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBC52C5B90CED3EC299CB81 /* Pods-Restaurant Menu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurant Menu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Restaurant Menu/Pods-Restaurant Menu.debug.xcconfig"; sourceTree = "<group>"; };
+		DDBC131C1FCF26B619ACC3A1 /* Pods-Restaurant Menu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Restaurant Menu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Restaurant Menu/Pods-Restaurant Menu.release.xcconfig"; sourceTree = "<group>"; };
+		F1353D1388E7AF130827764E /* libPods-Restaurant Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Restaurant Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B85E9B5DF59F386E7A4F72F /* libPods-Restaurant Menu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E1DF9D07F25B6D061BA4AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1353D1388E7AF130827764E /* libPods-Restaurant Menu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		95AC6E291FAF18BF001E76D6 = {
 			isa = PBXGroup;
 			children = (
 				95AC6E341FAF18BF001E76D6 /* Restaurant Menu */,
 				95AC6E331FAF18BF001E76D6 /* Products */,
+				FEED44C5CD00C8ABB02DFBE6 /* Pods */,
+				0E1DF9D07F25B6D061BA4AB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +94,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FEED44C5CD00C8ABB02DFBE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFBC52C5B90CED3EC299CB81 /* Pods-Restaurant Menu.debug.xcconfig */,
+				DDBC131C1FCF26B619ACC3A1 /* Pods-Restaurant Menu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95AC6E491FAF18BF001E76D6 /* Build configuration list for PBXNativeTarget "Restaurant Menu" */;
 			buildPhases = (
+				87EB38D63E9D8A6B1356DD5C /* [CP] Check Pods Manifest.lock */,
 				95AC6E2E1FAF18BF001E76D6 /* Sources */,
 				95AC6E2F1FAF18BF001E76D6 /* Frameworks */,
 				95AC6E301FAF18BF001E76D6 /* Resources */,
+				228846F29AC03D361C166B00 /* [CP] Embed Pods Frameworks */,
+				F9DC509A40D460157CEFE7DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		228846F29AC03D361C166B00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Restaurant Menu/Pods-Restaurant Menu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87EB38D63E9D8A6B1356DD5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Restaurant Menu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DC509A40D460157CEFE7DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Restaurant Menu/Pods-Restaurant Menu-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Restaurant Menu/Pods-Restaurant Menu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		95AC6E2E1FAF18BF001E76D6 /* Sources */ = {
@@ -270,6 +351,7 @@
 		};
 		95AC6E4A1FAF18BF001E76D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBC52C5B90CED3EC299CB81 /* Pods-Restaurant Menu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Restaurant Menu/Info.plist";
@@ -281,6 +363,7 @@
 		};
 		95AC6E4B1FAF18BF001E76D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBC131C1FCF26B619ACC3A1 /* Pods-Restaurant Menu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Restaurant Menu/Info.plist";
